@@ -11,25 +11,26 @@
 <body>
 	<!-- Navigation Bar -->
 	<nav class="navbar">
-	<div class="navbar-container">
-		<!-- Logo -->
-		<img src="./assets/logo.jpg" alt="Company Logo"/>
+		<div class="navbar-container">
+			<!-- Logo -->
+			<img src="./assets/logo.jpg" alt="Company Logo"/>
 
-		<!-- Hamburger Menu for Mobile -->
-		<button class="hamburger" aria-label="Toggle Menu">
-		<span></span>
-		<span></span>
-		<span></span>
-		</button>
+			<!-- Hamburger Menu for Mobile -->
+			<button class="hamburger" aria-label="Toggle Menu">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
 
-		<!-- Navigation Links -->
-		<ul class="nav-links">
-		<li><a href="#about">About Us</a></li>
-		<li><a href="#services">Services</a></li>
-		<li><a href="#clients">Clients</a></li>
-		<li><a href="#contact-us" id="contact-btn" class="contact-btn">Contact Us</a></li>
-		</ul>
-	</div>
+			<!-- Navigation Links -->
+			<ul class="nav-links">
+				<li><a href="#about">About Us</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#clients">Clients</a></li>
+				<li><a href="#careers">Careers</a></li>
+				<li><a href="#contact-us" id="contact-btn" class="contact-btn">Contact Us</a></li>
+			</ul>
+		</div>
 	</nav>
 
 	<!-- Placeholder for Content -->
@@ -80,7 +81,7 @@
 				<div class="core-value ethics">
 					<h3>Code of Ethics</h3>
 					<p class="core-values-text">
-We assure all our Clients and stakeholders that we at HUREMCES we are publicly committed to providing the highest quality work at any other time we shall have an engagement with any of our clients.					</p>
+					We assure all our Clients and stakeholders that we at HUREMCES we are publicly committed to providing the highest quality work at any other time we shall have an engagement with any of our clients.					</p>
 				</div>
 			</div>
 		</div>
@@ -124,7 +125,39 @@ We assure all our Clients and stakeholders that we at HUREMCES we are publicly c
 		</div>
 	</section>
 
+	<section id="clients" class="clients-section">
+		<div class="container">
+		<h2 class="clients-header">Our Clients</h2>
+			<div class="clients-grid">
+				<div class="client">
+					<img src="assets/ihrm.jpg" alt="institute_of_human_resource">
+				</div>
+				<div class="client">
+					<img src="assets/housing.png" alt="national_housing">
+				</div>
+				<div class="client">
+					<img src="assets/muranga_south_water.png" alt="muranga_south_water">
+				</div>
+				<div class="client">
+					<img src="assets/muranga_water.jpg" alt="muranga_water">
+				</div>
+			</div>
+		</div>
+	</section>
 
+	<section id="careers" class="careers-section">
+		<div class="container">
+			<h2 class="careers-header">Careers</h2>
+			<div class="job-advertisement">
+				<p>
+					For more details, please download the full job description below.
+				</p>
+				<a href="assets/JOB_ADVERTS.pdf" class="download-link" download>
+					Download Job Positions (PDF)
+				</a>
+			</div>
+		</div>
+	</section>
 
 	<section id="contact-us" class="contact-us-section">
 		<div class="container">
@@ -143,7 +176,6 @@ We assure all our Clients and stakeholders that we at HUREMCES we are publicly c
 				<div class="form-column">
 					<label for="message">Message:</label>
 					<textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
-
 					<button type="submit" class="submit-button">Send Message</button>
 				</div>
 				</div>
@@ -171,6 +203,7 @@ We assure all our Clients and stakeholders that we at HUREMCES we are publicly c
 	</footer>
 
 	<script src="script.js"></script>
+
 </body>
 
 </html>
