@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Responsive Navbar</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<!-- Navigation Bar -->
+	<nav class="navbar">
+	<div class="navbar-container">
+		<!-- Logo -->
+		<img src="./assets/logo.jpg" alt="Company Logo"/>
+
+		<!-- Hamburger Menu for Mobile -->
+		<button class="hamburger" aria-label="Toggle Menu">
+		<span></span>
+		<span></span>
+		<span></span>
+		</button>
+
+		<!-- Navigation Links -->
+		<ul class="nav-links">
+		<li><a href="#about">About Us</a></li>
+		<li><a href="#services">Services</a></li>
+		<li><a href="#clients">Clients</a></li>
+		<li><a href="#contact-us" id="contact-btn" class="contact-btn">Contact Us</a></li>
+		</ul>
+	</div>
+	</nav>
+
+	<!-- Placeholder for Content -->
+	<main>
+	<section id="about" class="about-section">
+		<div class="container">
+			<div class="about-row">
+				<!-- Left Column: Title and Description -->
+				<div class="about-text">
+				<h2>About Us</h2>
+				<p>
+					We are a dedicated team committed to providing top-quality services and solutions tailored to meet the
+					unique needs of our clients. Our expertise spans across various industries, ensuring innovative, reliable,
+					and impactful results.
+				</p>
+				</div>
+
+				<!-- Right Column: Image -->
+				<div class="about-image">
+					<img src="assets/career-1342235_1280.png" alt="About Us" class="rounded-image">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="core-values" class="core-values-section">
+		<div class="container">
+			<div class="core-values-row">
+				<!-- Vision Column -->
+				<div class="core-value vision">
+					<h3>Vision</h3>
+					<p class="core-values-text">
+						Offer possible solutions to HR challenges experienced by people and organizations, fostering a better Africa and a better world of work.
+					</p>
+				</div>
+
+				<!-- Mission Column -->
+				<div class="core-value mission">
+				<h3>Mission</h3>
+					<p class="core-values-text">
+						To provide effective and efficient services that benefit users, exceed expectations, and present our company as honest and trustworthy at all times.
+					</p>
+				</div>
+
+				<!-- Code of Ethics Column -->
+				<div class="core-value ethics">
+					<h3>Code of Ethics</h3>
+					<p class="core-values-text">
+						We are committed to delivering the highest quality work with integrity and professionalism during every client engagement.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="services" class="services-section">
+		<h1 class="services-header">Our Services</h1>
+		<div class="services-list">
+			<div class="service">
+			<div class="service-image">
+				<img src="assets/businessman-4661727_1280.jpg" alt="Service 1">
+				<div class="service-text">
+				<h3>Service 1</h3>
+				</div>
+			</div>
+			</div>
+			<div class="service">
+			<div class="service-image">
+				<img src="assets/science-1182713_1280.jpg" alt="Service 2">
+				<div class="service-text">
+				<h3>Service 2</h3>
+				</div>
+			</div>
+			</div>
+			<div class="service">
+			<div class="service-image">
+				<img src="assets/word-cloud-1758159_1280.png" alt="Service 3">
+				<div class="service-text">
+				<h3>Service 3</h3>
+				</div>
+			</div>
+			</div>
+			<div class="service">
+			<div class="service-image">
+				<img src="assets/management_training.jpg" alt="Service 4">
+				<div class="service-text">
+				<h3>Service 4</h3>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section id="contact-us" class="contact-us-section">
+		<div class="container">
+			<h2 class="contact-header">Contact Us</h2>
+			<div class="contact-form">
+			<form action="#" method="post">
+				<div class="form-row">
+				<div class="form-column">
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name" placeholder="Your Name" required>
+
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email" placeholder="Your Email" required>
+				</div>
+
+				<div class="form-column">
+					<label for="message">Message:</label>
+					<textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
+
+					<button type="submit" class="submit-button">Send Message</button>
+				</div>
+				</div>
+			</form>
+			</div>
+		</div>
+	</section>
+
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-icons">
+				<div class="footer-icon">
+					<img src="assets/building.png" alt="Building Icon">
+					<p class="footer-text">123 Business Street, City, Country</p>
+				</div>
+				<div class="footer-icon">
+					<img src="assets/phone-call.png" alt="Telephone Icon">
+					<p class="footer-text">+123-456-7890</p>
+				</div>
+			</div>
+			<p>&copy; <span id="current-year"></span> Huremces. All rights reserved.</p>
+		</div>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
