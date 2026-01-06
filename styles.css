@@ -466,10 +466,27 @@ textarea:focus {
   margin-top: 20px;
   padding: 10px 20px;
   background-color: #007bff;
-  color: white;
-  text-decoration: none;
-  border-radius: 4px;
+  font-weight: 600;
   font-size: 1rem;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  animation: pulseBlink 1.5s infinite;
+}
+
+@keyframes pulseBlink {
+    0% {
+        opacity: 1;
+        box-shadow: 0 0 0 0 rgba(211, 47, 47, 0.7);
+    }
+    50% {
+        opacity: 0.6;
+        box-shadow: 0 0 0 10px rgba(211, 47, 47, 0);
+    }
+    100% {
+        opacity: 1;
+        box-shadow: 0 0 0 0 rgba(211, 47, 47, 0);
+    }
 }
 
 .download-link:hover {
